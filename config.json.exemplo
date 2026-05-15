@@ -1,0 +1,50 @@
+{
+    "name": "Nexorix: Novo Mundo",
+    "max_players": 100,
+    "language": "Portuguese",
+    "network": {
+        "bind": "0.0.0.0",
+        "port": 7777,
+        "announce": false,
+        "query": true
+    },
+    "lua": {
+        "entry": "lua/gamemode"
+    },
+    "database": {
+        "type": "sqlite",
+        "file": "database/nexorix.db",
+        "mysql": {
+            "enabled": false,
+            "host": "localhost",
+            "port": 3306,
+            "user": "root",
+            "password": "",
+            "database": "nexorix"
+        }
+    },
+    "discord": {
+        "enabled": true,
+        "token": "SEU_TOKEN_AQUI",
+        "prefix": "!",
+        "channel_id": "SEU_CHANNEL_ID"
+    },
+    "voice": {
+        "enabled": true,
+        "host": "0.0.0.0",
+        "port": 2020,
+        "proximity_distance": 50.0,
+        "max_streams": 4096,
+        "max_effects": 256
+    },
+    "logging": {
+        "enable": true,
+        "file": "nexorix_server.log"
+    },
+    "game": {
+        "use_entry_exit_markers": false,
+        "use_stunt_bonuses": false,
+        "use_all_animations": true,
+        "use_nametag_los": true
+    }
+}
