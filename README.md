@@ -267,4 +267,4 @@ Requer admin nível 4+ (Gerente). Configure no sistema admin.
 
 ## Créditos
 
-Nexorix Framework — Desenvolvido por Rick_Spooky
+Nexorix Framework — Desenvolvido por RickZin021
